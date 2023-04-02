@@ -16,12 +16,12 @@
 .author--info {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
 }
 .author--info img {
     margin-right: 1rem;
-    width: 3.75rem;
-    height: 3.125rem;
+    width: 5rem;
+    height: 5rem;
     border-radius: 50%;
 }
 
