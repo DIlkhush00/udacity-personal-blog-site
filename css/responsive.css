@@ -8,3 +8,11 @@
     }
 
 }
+
+@media screen and (max-width: 64em) {
+    .hero--text {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+}
