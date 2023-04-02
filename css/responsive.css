@@ -6,7 +6,13 @@
     .logo h1 {
         margin-bottom: 0.5rem;
     }
-
+    .footer--wrapper {
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr 1fr;
+    }
+    .footer--copyright {
+        justify-self: center;
+    }
 }
 
 @media screen and (max-width: 64em) {
@@ -15,4 +21,11 @@
         margin: 0 auto;
     }
 
+}
+
+@media screen and (max-width: 87.5em) {
+    .sub--input a {
+        margin-top: 1rem;
+        margin-left: 0;
+    }
 }
