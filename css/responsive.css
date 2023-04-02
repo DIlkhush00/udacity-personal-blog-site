@@ -20,7 +20,9 @@
         width: 100%;
         margin: 0 auto;
     }
-
+    .sub--input {
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 87.5em) {

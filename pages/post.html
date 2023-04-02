@@ -35,31 +35,35 @@
                 </div>
             </div>
             <div class="blog--image container--py">
-                <img src="/images/blog-bg.jpg" alt="blog">
+                <figure>
+                    <img src="/images/blog-bg.jpg" alt="blog">
+                    <figcaption>Mobile on a laptop</figcaption>
+                </figure>
             </div>
             <div class="blog--text">
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta eveniet voluptas voluptatum eum
-                    culpa
-                    tempore, iusto vero, alias nisi <span>numquam</span> numquam labore animi aliquid dignissimos. Porro quisquam eveniet
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. <q>Soluta eveniet voluptas voluptatum eum
+                    culpa</q>
+                    tempore, iusto vero, alias nisi <a href="#"><span>numquam</span></a> numquam labore animi aliquid dignissimos. Porro quisquam eveniet
                     temporibus necessitatibus ipsam magnam recusandae!
                 </p>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta eveniet voluptas voluptatum eum
+                    Lorem ipsum dolor <i>Lorem, ipsum.</i> sit amet consectetur adipisicing elit. Soluta eveniet voluptas voluptatum eum
                     culpa
                     tempore, iusto vero, alias nisi numquam labore animi aliquid dignissimos. Porro quisquam eveniet
-                    temporibus necessitatibus ipsam magnam recusandae!                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta eveniet voluptas voluptatum eum
+                    <u>temporibus</u> necessitatibus ipsam magnam recusandae!                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta eveniet voluptas voluptatum eum
                     culpa tempore, iusto vero, alias nisi numquam labore animi aliquid dignissimos. Porro quisquam eveniet
                     temporibus necessitatibus ipsam magnam recusandae!
                 </p>
                 <p>
                     Lorem ipsum dolor sit amet <span>consectetur</span>, adipisicing elit. Quas facilis rem molestiae dignissimos sit dolorem temporibus accusantium ipsum enim dolorum!
+                    <h3>Lorem ipsum dolor sit amet.</h3>
                     <ul>
                         <li>Lorem ipsum dolor sit amet.</li>
+                        <li>Lorem <b>ipsum dolor</b> sit amet.</li>
                         <li>Lorem ipsum dolor sit amet.</li>
                         <li>Lorem ipsum dolor sit amet.</li>
-                        <li>Lorem ipsum dolor sit amet.</li>
-                        <li>Lorem ipsum dolor sit amet.</li>
+                        <li>Lorem <b>ipsum dolor</b> sit amet.</li>
                     </ul>
                 </p>
                 <h2>Some Text</h2>
@@ -73,7 +77,7 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta eveniet voluptas voluptatum eum
                     culpa
                     tempore, iusto vero, alias nisi numquam labore animi aliquid dignissimos. Porro quisquam eveniet
-                    temporibus necessitatibus ipsam magnam recusandae!                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta eveniet voluptas voluptatum eum
+                    <b><u>temporibus</u></b> necessitatibus ipsam magnam recusandae!                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta eveniet voluptas voluptatum eum
                     culpa tempore, iusto vero, alias nisi numquam labore animi aliquid dignissimos. Porro quisquam eveniet
                     temporibus necessitatibus ipsam magnam recusandae!
                 </p>
@@ -88,17 +92,19 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta eveniet voluptas voluptatum eum
                     culpa
                     tempore, iusto vero, alias nisi numquam labore animi aliquid dignissimos. Porro quisquam eveniet
-                    temporibus necessitatibus ipsam magnam recusandae!                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta eveniet voluptas voluptatum eum
+                    <b><u>temporibus</u></b> necessitatibus ipsam magnam recusandae!                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta eveniet voluptas voluptatum eum
                     culpa tempore, iusto vero, alias nisi numquam labore animi aliquid dignissimos. Porro quisquam eveniet
                     temporibus necessitatibus ipsam magnam recusandae!
+                    <i>Lorem, ipsum.</i>
                 </p>
                 <p>
-                    Lorem ipsum dolor sit amet <span>consectetur</span>, adipisicing elit. Quas facilis rem molestiae dignissimos sit dolorem temporibus accusantium ipsum enim dolorum!
+                    Lorem ipsum dolor sit amet <a href="#"><span>consectetur</span></a>, adipisicing elit. <i>Lorem, ipsum.</i>  Quas facilis rem molestiae dignissimos sit dolorem temporibus accusantium ipsum enim dolorum!
+                    <h3>Lorem ipsum dolor sit amet.</h3>
                     <ul>
+                        <li>Lorem <b>ipsum dolor</b> sit amet.</li>
                         <li>Lorem ipsum dolor sit amet.</li>
                         <li>Lorem ipsum dolor sit amet.</li>
-                        <li>Lorem ipsum dolor sit amet.</li>
-                        <li>Lorem ipsum dolor sit amet.</li>
+                        <li>Lorem <b>ipsum dolor</b> sit amet.</li>
                         <li>Lorem ipsum dolor sit amet.</li>
                     </ul>
                 </p>
@@ -107,7 +113,7 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta eveniet voluptas voluptatum eum
                     culpa
                     tempore, iusto vero, alias nisi numquam labore animi aliquid dignissimos. Porro quisquam eveniet
-                    <span>temporibus</span> necessitatibus ipsam magnam recusandae!
+                    <a href="#"><span>temporibus</span></a> necessitatibus ipsam magnam recusandae!
                 </p>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta eveniet voluptas voluptatum eum
@@ -120,7 +126,7 @@
             </div>
             <hr>
             <div class="thanks">
-                Thanks for Reading &#128516
+                <p>Thanks for Reading &#128516</p>
             </div>
             <div class="share">
                 Do share on
@@ -133,10 +139,9 @@
     <footer class="footer" id="footer">
         <div class="footer--wrapper container container--py">
             <div class="footer--sub">
-                Subscribe to BloggyWood
                 <div class="sub--input">
                     <input type="email" name="email" placeholder="abc@email.com">
-                    <a href="#" class="button">Subscribe</a>
+                    <button class="button"><a href="#">Subscribe</a></button>
                 </div>
             </div>
             <div class="footer--copyright">Copyright &copy; 2023 BloggyWood</div>
