@@ -1,0 +1,10 @@
+@media screen and (max-width: 40em) {
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo h1 {
+        margin-bottom: 0.5rem;
+    }
+
+}
