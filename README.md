@@ -3,7 +3,7 @@
 
 This is a project for udacity's frontend track program.
 
-Assets used in this projects are from following sites:
+Assets used in this project are from following sites:
 
 [fonts](https://fonts.google.com/)
 
